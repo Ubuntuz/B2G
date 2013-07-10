@@ -239,6 +239,10 @@ case "$DEVICE" in
 "otoro"|"unagi"|"keon"|"peak"|"inari"|"leo"|"hamachi"|"sp8810ea"|"helix")
 	flash_fastboot nounlock $PROJECT
 	;;
+	
+"shooteru")
+	flash_fastboot unlock $PROJECT
+	;;
 
 "panda")
 	flash_fastboot unlock $PROJECT
